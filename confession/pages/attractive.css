@@ -1,0 +1,89 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#artext{
+    background: linear-gradient(to left,
+    violet, indigo,
+    green, yellow,
+    orange, red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+    
+}
+@keyframes animated{
+    to {background-position-x: 161px;}
+}
+
+#text{
+    background: rgb(255, 53, 86);
+    background-clip: text;
+    color:transparent
+}
+#text2{
+    background:red;
+    background-clip: text;
+    color: transparent;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    font-size: 4ch;
+    text-align: center;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+}
+body{
+    background-color: rgba(78, 254, 216, 0.23);
+}
+button{
+    background-color: aquamarine;
+    
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #042331;
+}
+.sidebar header{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    background: #063146;
+}
+.sidebar ul a{
+    height: 100%;
+    width: 100%;
+    line-height: 65%;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid black;
+}
+.sidebar ul a button{
+    padding: 30px;
+    color: rgb(0, 38, 255);
+    padding-top: 10px;
+    padding-right: 80px;
+    padding-left: 20px;
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 1.6ch;
+}
